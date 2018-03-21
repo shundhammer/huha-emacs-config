@@ -1,7 +1,7 @@
 ;;;	keys.el - general key bindings
 ;;;
 ;;;	Author:		Stefan Hundhammer <sh@suse.de>
-;;;	Updated:	2001-01-30
+;;;	Updated:	2018-03-21
 
 
 (global-set-key [f1]		'dabbrev-expand		)
@@ -92,6 +92,14 @@
 (global-set-key [C-kp-add]	'enlarge-window		)	; Ctrl-Num+
 (global-set-key [C-kp-subtract]	'shrink-window		)	; Ctrl-Num-
 
+;;; Get rid of completely brain-dead secondary selection handling
+;;; https://emacs.stackexchange.com/questions/8225/clear-secondary-selection-without-using-mouse
+
+(global-unset-key [M-mouse-1])
+(global-unset-key [M-drag-mouse-1])
+(global-unset-key [M-down-mouse-1])
+(global-unset-key [M-mouse-3])
+(global-unset-key [M-mouse-2])
 
 
 ;;; <EOF>
