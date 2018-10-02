@@ -61,7 +61,7 @@
 ;
 (setq default-frame-alist
               '((width		. 80		)
-        	(height		. 60		)
+        	(height		. 45		)
         	(background	. "burlywood"	)
         	(foreground	. "black"	)
         	(pointerColor	. "forest green")
@@ -69,7 +69,7 @@
         
 (setq initial-frame-alist
               '((width		. 80		)
-        	(height		. 60		)
+        	(height		. 45		)
         	(background	. "burlywood"	)
         	(foreground	. "black"	)
         	(pointerColor	. "forest green")
