@@ -5,7 +5,7 @@
 ;;;	when using this file!
 ;;;
 ;;;	Author:		Stefan Hundhammer
-;;;	Updated:	2015-12-18
+;;;	Updated:	2019-05-27
 ;;;
 
 ;; (setq debug-on-error t)
@@ -39,8 +39,8 @@
        auto-mode-alist))
 
 
-:(setq compile-command				"make -k -j 5 && sudo make install")
-(setq compile-command				"make -j 12")
+(setq compile-command				"make -k -j 8 && sudo make install")
+;(setq compile-command				"make -j 12")
 (setq compilation-window-height			20)
 (set-default 'fill-column			79)	; automatic line wrapping
 (setq blink-matching-paren			t)
@@ -96,7 +96,9 @@
  '(blink-cursor-interval 0.5)
  '(blink-cursor-mode nil)
  '(compilation-scroll-output t)
- '(completion-ignored-extensions (quote ("CVS/" ".o" "~" ".bin" ".lbin" ".fasl" ".ufsl" ".a" ".ln" ".blg" ".bbl" ".elc" ".lof" ".glo" ".idx" ".lot" ".dvi" ".fmt" ".tfm" ".pdf" ".class" ".fas" ".lib" ".x86f" ".sparcf" ".lo" ".la" ".toc" ".log" ".aux" ".cp" ".fn" ".ky" ".pg" ".tp" ".vr" ".cps" ".fns" ".kys" ".pgs" ".tps" ".vrs" ".ybc")))
+ '(completion-ignored-extensions
+   (quote
+    ("CVS/" ".o" "~" ".bin" ".lbin" ".fasl" ".ufsl" ".a" ".ln" ".blg" ".bbl" ".elc" ".lof" ".glo" ".idx" ".lot" ".dvi" ".fmt" ".tfm" ".pdf" ".class" ".fas" ".lib" ".x86f" ".sparcf" ".lo" ".la" ".toc" ".log" ".aux" ".cp" ".fn" ".ky" ".pg" ".tp" ".vr" ".cps" ".fns" ".kys" ".pgs" ".tps" ".vrs" ".ybc")))
  '(delete-selection-mode nil nil (delsel))
  '(diff-switches "-u")
  '(global-cwarn-mode t nil (cwarn))
@@ -115,7 +117,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:family "Ubuntu Mono" :foundry "unknown" :slant normal :weight normal :height 113 :width normal))))
+ '(default ((t (:family "DejaVu Sans Mono" :foundry "PfEd" :slant normal :weight normal :height 110 :width normal))))
  '(cursor ((t (:background "red"))))
  '(fringe ((((class color) (background light)) (:stipple nil :background "burlywood"))))
  '(makefile-space-face ((((class color)) (:background "cyan"))))
