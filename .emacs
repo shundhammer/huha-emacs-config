@@ -5,7 +5,7 @@
 ;;;	when using this file!
 ;;;
 ;;;	Author:		Stefan Hundhammer
-;;;	Updated:	2019-05-27
+;;;	Updated:	2020-02-12
 ;;;
 
 ;; (setq debug-on-error t)
@@ -59,6 +59,7 @@
 (setq next-line-add-newlines			nil)	; no newlines by just scrolling down
 (setq backward-delete-char-untabify-method	nil)	; delete tab chars normally
 (setq font-lock-maximum-size			nil)	; no file size limit for syntax highlighting
+(setq x-selection-timeout                       10)     ; prevent long delay when exiting
 
 
 ; Enable some seldom-used functions.
