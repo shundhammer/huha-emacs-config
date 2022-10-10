@@ -1,7 +1,7 @@
 ;;;	colors.el - general and syntax highlighting (font lock) colors
 ;;;
 ;;;	Author:		Stefan Hundhammer <sh@suse.de>
-;;;	Updated:	2013-12-04
+;;;	Updated:	2021-04-13
 
 
 
@@ -27,7 +27,6 @@
   (set-face-foreground 'font-lock-keyword-face		"chocolate3"	)
   (set-face-foreground 'font-lock-type-face		"maroon2"	)
   (set-face-foreground 'font-lock-warning-face		"red"		)
-  ;; (set-face-foreground 'sh-heredoc-face		"slate blue"	)
 )
 
 (add-hook 'find-file-hooks 'turn-on-font-lock		t)
