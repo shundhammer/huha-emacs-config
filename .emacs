@@ -5,7 +5,7 @@
 ;;;	when using this file!
 ;;;
 ;;;	Author:		Stefan Hundhammer
-;;;	Updated:	2020-02-12
+;;;	Updated:	2022-10-10
 ;;;
 
 ;; (setq debug-on-error t)
@@ -98,17 +98,16 @@
  '(blink-cursor-mode nil)
  '(compilation-scroll-output t)
  '(completion-ignored-extensions
-   (quote
-    ("CVS/" ".o" "~" ".bin" ".lbin" ".fasl" ".ufsl" ".a" ".ln" ".blg" ".bbl" ".elc" ".lof" ".glo" ".idx" ".lot" ".dvi" ".fmt" ".tfm" ".pdf" ".class" ".fas" ".lib" ".x86f" ".sparcf" ".lo" ".la" ".toc" ".log" ".aux" ".cp" ".fn" ".ky" ".pg" ".tp" ".vr" ".cps" ".fns" ".kys" ".pgs" ".tps" ".vrs" ".ybc")))
+   '("CVS/" ".o" "~" ".bin" ".lbin" ".fasl" ".ufsl" ".a" ".ln" ".blg" ".bbl" ".elc" ".lof" ".glo" ".idx" ".lot" ".dvi" ".fmt" ".tfm" ".pdf" ".class" ".fas" ".lib" ".x86f" ".sparcf" ".lo" ".la" ".toc" ".log" ".aux" ".cp" ".fn" ".ky" ".pg" ".tp" ".vr" ".cps" ".fns" ".kys" ".pgs" ".tps" ".vrs" ".ybc"))
  '(delete-selection-mode nil nil (delsel))
  '(diff-switches "-u")
  '(global-cwarn-mode t nil (cwarn))
  '(indent-tabs-mode nil)
  '(inhibit-startup-screen t)
- '(make-backup-file-name-function (quote make-backup-file-name))
- '(recenter-positions (quote (middle)))
- '(safe-local-variable-values (quote ((TeX-master . t) (TeX-master . "course"))))
- '(scroll-bar-mode (quote right))
+ '(make-backup-file-name-function 'make-backup-file-name)
+ '(recenter-positions '(middle))
+ '(safe-local-variable-values '((TeX-master . t) (TeX-master . "course")))
+ '(scroll-bar-mode 'right)
  '(show-paren-mode t)
  '(tool-bar-mode nil nil (tool-bar))
  '(user-mail-address "Stefan.Hundhammer@gmx.de")
@@ -118,7 +117,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:family "DejaVu Sans Mono" :foundry "PfEd" :slant normal :weight normal :height 110 :width normal))))
+ '(default ((t (:family "DejaVu Sans Mono" :foundry "PfEd" :slant normal :weight normal :height 105 :width normal))))
  '(cursor ((t (:background "red"))))
  '(fringe ((((class color) (background light)) (:stipple nil :background "burlywood"))))
  '(makefile-space-face ((((class color)) (:background "cyan"))))
