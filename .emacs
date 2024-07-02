@@ -5,7 +5,7 @@
 ;;;	when using this file!
 ;;;
 ;;;	Author:		Stefan Hundhammer
-;;;	Updated:	2022-10-10
+;;;	Updated:	2023-05-11
 ;;;
 
 ;; (setq debug-on-error t)
@@ -124,6 +124,7 @@
  '(menu ((t nil)))
  '(mode-line ((t (:background "sienna4" :foreground "burlywood1" :box (:line-width 2 :style released-button)))))
  '(scroll-bar ((t (:background "burlywood" :foreground "burlywood"))))
+ '(sh-heredoc ((t (:foreground "blue"))))
  '(sh-heredoc-face ((t (:foreground "slate blue"))))
  '(tool-bar ((((type x w32 mac) (class color)) (:background "burlywood" :foreground "black" :box (:line-width 1 :style released-button)))))
  '(trailing-whitespace ((((class color) (background light)) (:background "cyan")))))
