@@ -5,7 +5,7 @@
 ;;;	when using this file!
 ;;;
 ;;;	Author:		Stefan Hundhammer
-;;;	Updated:	2022-10-10
+;;;	Updated:	2024-07-02
 ;;;
 
 ;; (setq debug-on-error t)
@@ -117,7 +117,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:family "DejaVu Sans Mono" :foundry "PfEd" :slant normal :weight normal :height 105 :width normal))))
+ '(default ((t (:family "Liberation Mono" :foundry "1ASC" :slant normal :weight normal :height 107 :width normal))))
  '(cursor ((t (:background "red"))))
  '(fringe ((((class color) (background light)) (:stipple nil :background "burlywood"))))
  '(makefile-space-face ((((class color)) (:background "cyan"))))
