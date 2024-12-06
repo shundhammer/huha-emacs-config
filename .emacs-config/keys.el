@@ -9,7 +9,7 @@
 (global-set-key [f3]		'iconify-frame		)
 (global-set-key [f4]		'delete-frame		)
 (global-set-key [f5]		'make-frame		)
-(global-set-key [f6]		'rmail			)
+;;; (global-set-key [f6]	nil			)
 (global-set-key [f7]		'replace-string		)
 (global-set-key [f8]		'replace-regexp		)
 (global-set-key [f9]		'undo			)
