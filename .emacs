@@ -5,7 +5,7 @@
 ;;;	when using this file!
 ;;;
 ;;;	Author:		Stefan Hundhammer
-;;;	Updated:	2023-05-11
+;;;	Updated:	2026-02-09
 ;;;
 
 ;; (setq debug-on-error t)
@@ -39,7 +39,7 @@
        auto-mode-alist))
 
 
-(setq compile-command				"make -k -j 8 && sudo make install")
+(setq compile-command				"make -k -j 20 && sudo make install")
 ;(setq compile-command				"make -j 12")
 (setq compilation-window-height			20)
 (set-default 'fill-column			79)	; automatic line wrapping
@@ -123,7 +123,7 @@
  '(makefile-space-face ((((class color)) (:background "cyan"))))
  '(menu ((t nil)))
  '(mode-line ((t (:background "sienna4" :foreground "burlywood1" :box (:line-width 2 :style released-button)))))
- '(scroll-bar ((t (:background "burlywood" :foreground "burlywood"))))
+ '(scroll-bar ((t (:background "burlywood" :foreground "sienna4"))))
  '(sh-heredoc ((t (:foreground "blue"))))
  '(sh-heredoc-face ((t (:foreground "slate blue"))))
  '(tool-bar ((((type x w32 mac) (class color)) (:background "burlywood" :foreground "black" :box (:line-width 1 :style released-button)))))
