@@ -1,9 +1,10 @@
+;; -*- lexical-binding: nil; -*-
 ;;;	filenames.el - replacement functions for file name creation:
 ;;;		'xyz~'	-> 'xyz.bak'
 ;;;		'#xyz#'	-> 'xzy.auto'
 ;;;
 ;;;	Author:		Stefan Hundhammer <sh@suse.de>
-;;;	Updated:	2002-04-19
+;;;	Updated:	2026-09-20
 ;;;
 ;;;	Those functions are stolen from the original files.el and slightly
 ;;;	modified. Just setting some variable will not do here: Emacs really
@@ -91,11 +92,7 @@ work at all as documented. Sigh."
     ;; Run a handler for this function so that ange-ftp can refuse to do it.
     (if handler
 	(funcall handler 'find-backup-file-name fn)
-      (if (or (eq version-control 'never)
-	      ;; We don't support numbered backups on plain MS-DOS
-	      ;; when long file names are unavailable.
-	      (and (eq system-type 'ms-dos)
-		   (not (msdos-long-file-names))))
+      (if (eq version-control 'never)
 	  (list (make-backup-file-name fn))
 	(let* ((basic-name (make-backup-file-name-1 fn))
 	       (base-versions (concat (file-name-nondirectory basic-name)

@@ -1,3 +1,4 @@
+;; -*- lexical-binding: nil; -*-
 ;;;	mail.el - (Emacs) mail customization
 ;;;
 ;;;	Author:		Stefan Hundhammer <sh@suse.de>

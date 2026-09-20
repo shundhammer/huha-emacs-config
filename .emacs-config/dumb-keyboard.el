@@ -1,3 +1,4 @@
+;; -*- lexical-binding: nil; -*-
 ;;;	dumb-keybaord.el -	some functions to get special U.S. characters
 ;;;				even on very dumb keyboards
 ;;;

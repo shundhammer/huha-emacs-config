@@ -1,3 +1,4 @@
+;; -*- lexical-binding: nil; -*-
 ;;;	sick-remo-mode.el -	Sick tab expansion mode for those who can't cope
 ;;;				with their beginning-70s vi editor
 ;;;

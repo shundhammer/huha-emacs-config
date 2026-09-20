@@ -1,3 +1,4 @@
+;; -*- lexical-binding: nil; -*-
 ;;;	keys.el - general key bindings
 ;;;
 ;;;	Author:		Stefan Hundhammer <sh@suse.de>

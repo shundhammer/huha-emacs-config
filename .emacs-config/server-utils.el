@@ -1,3 +1,4 @@
+;; -*- lexical-binding: nil; -*-
 ;;;	server-utils.el - Emacs server utilities
 ;;;
 ;;;	Author:		Stefan Hundhammer <sh@suse.de>

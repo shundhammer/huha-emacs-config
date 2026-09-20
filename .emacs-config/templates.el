@@ -1,3 +1,4 @@
+;; -*- lexical-binding: nil; -*-
 ;;;     templates.el - templates for tempo-mode
 ;;;
 ;;;     Author:         Stefan Hundhammer <sh@suse.de>

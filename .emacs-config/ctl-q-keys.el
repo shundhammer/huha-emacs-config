@@ -1,3 +1,4 @@
+;; -*- lexical-binding: nil; -*-
 ;;;	ctl-q-keys.el - key bindings starting with Ctl-q
 ;;;
 ;;;	Author:		Stefan Hundhammer <sh@suse.de>

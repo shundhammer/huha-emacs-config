@@ -1,3 +1,4 @@
+;; -*- lexical-binding: nil; -*-
 ;;;	custom-etags.el - accessing "etags" programming tags
 ;;;
 ;;;	Author:		Stefan Hundhammer <sh@suse.de>

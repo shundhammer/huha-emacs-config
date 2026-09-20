@@ -1,3 +1,4 @@
+;; -*- lexical-binding: nil; -*-
 ;;;
 ;;;	.emacs - user specific emacs startup file
 ;;;
@@ -5,7 +6,7 @@
 ;;;	when using this file!
 ;;;
 ;;;	Author:		Stefan Hundhammer
-;;;	Updated:	2024-09-28
+;;;	Updated:	2024-10-01
 ;;;
 
 ;; (setq debug-on-error t)
@@ -39,7 +40,7 @@
        auto-mode-alist))
 
 
-(setq compile-command				"make -k -j 20 && sudo make install")
+(setq compile-command				"make -k -j 8 && sudo make install")
 ;(setq compile-command				"make -j 12")
 (setq compilation-window-height			20)
 (set-default 'fill-column			79)	; automatic line wrapping
@@ -111,12 +112,13 @@
  '(tool-bar-mode nil nil (tool-bar))
  '(user-mail-address "Stefan.Hundhammer@gmx.de")
  '(vc-follow-symlinks nil))
+
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:family "DejaVu Sans Mono" :foundry "PfEd" :slant normal :weight regular :height 96 :width normal))))
+ '(default ((t (:family "DejaVu Sans Mono" :foundry "PfEd" :slant normal :weight regular :height 102 :width normal))))
  '(cursor ((t (:background "red"))))
  '(fringe ((((class color) (background light)) (:stipple nil :background "burlywood"))))
  '(makefile-space-face ((((class color)) (:background "cyan"))))

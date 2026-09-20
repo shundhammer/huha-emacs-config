@@ -1,7 +1,8 @@
+;; -*- lexical-binding: nil; -*-
 ;;;	colors.el - general and syntax highlighting (font lock) colors
 ;;;
 ;;;	Author:		Stefan Hundhammer <sh@suse.de>
-;;;	Updated:	2021-04-13
+;;;	Updated:	2024-11-21
 
 
 
@@ -60,7 +61,7 @@
 ;
 (setq default-frame-alist
               '((width		. 80		)
-        	(height		. 60		)
+        	(height		. 47		)
         	(background	. "burlywood"	)
         	(foreground	. "black"	)
         	(pointerColor	. "forest green")
@@ -68,7 +69,7 @@
         
 (setq initial-frame-alist
               '((width		. 80		)
-        	(height		. 60		)
+        	(height		. 47		)
         	(background	. "burlywood"	)
         	(foreground	. "black"	)
         	(pointerColor	. "forest green")

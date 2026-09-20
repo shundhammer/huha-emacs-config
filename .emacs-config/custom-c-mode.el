@@ -1,3 +1,4 @@
+;; -*- lexical-binding: nil; -*-
 ;;;	custom-c-mode.el - C/C++ editing mode customizations
 ;;;
 ;;;	Author:		Stefan Hundhammer <sh@suse.de>

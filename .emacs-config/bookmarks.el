@@ -1,3 +1,4 @@
+;; -*- lexical-binding: nil; -*-
 ;;;	bookmarks.el - set and go to bookmarks in a buffer
 ;;;
 ;;;	Author:		Stefan Hundhammer <sh@suse.de>

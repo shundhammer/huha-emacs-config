@@ -1,3 +1,4 @@
+;; -*- lexical-binding: nil; -*-
 ;;;	edit-functions.el - general editing functions
 ;;;
 ;;;	Author:		Stefan Hundhammer <sh@suse.de>
