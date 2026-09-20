@@ -5,7 +5,7 @@
 ;;;	when using this file!
 ;;;
 ;;;	Author:		Stefan Hundhammer
-;;;	Updated:	2026-02-09
+;;;	Updated:	2024-09-28
 ;;;
 
 ;; (setq debug-on-error t)
@@ -108,7 +108,6 @@
  '(recenter-positions '(middle))
  '(safe-local-variable-values '((TeX-master . t) (TeX-master . "course")))
  '(scroll-bar-mode 'right)
- '(show-paren-mode t)
  '(tool-bar-mode nil nil (tool-bar))
  '(user-mail-address "Stefan.Hundhammer@gmx.de")
  '(vc-follow-symlinks nil))
@@ -117,7 +116,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:family "DejaVu Sans Mono" :foundry "PfEd" :slant normal :weight normal :height 105 :width normal))))
+ '(default ((t (:family "DejaVu Sans Mono" :foundry "PfEd" :slant normal :weight regular :height 96 :width normal))))
  '(cursor ((t (:background "red"))))
  '(fringe ((((class color) (background light)) (:stipple nil :background "burlywood"))))
  '(makefile-space-face ((((class color)) (:background "cyan"))))
