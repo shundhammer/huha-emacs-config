@@ -1,0 +1,15 @@
+# How to Fix Errors about lexical-binding
+
+https://emacs.stackexchange.com/questions/85745/how-to-totally-and-completely-remove-the-no-lexical-binding-warning
+
+Those errors are usually in /usr/share/emacs/site-lisp :
+
+    cd /usr/share/emacs/site-lisp
+
+    sudo sed -i '1i\;; -*- lexical-binding: nil; -*-' *.el
+    sudo emacs -batch -f batch-byte-compile *.el
+
+Do the same in any subdirectory with .el files:
+
+    cd site-start.d
+    ...
