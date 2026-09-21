@@ -6,7 +6,7 @@
 ;;;	when using this file!
 ;;;
 ;;;	Author:		Stefan Hundhammer
-;;;	Updated:	2024-10-01
+;;;	Updated:	2026-09-21
 ;;;
 
 ;; (setq debug-on-error t)
@@ -25,10 +25,6 @@
 (load "~/.emacs-config/templates"	)	; programming templates (tempo-mode)
 (load "~/.emacs-config/server-utils"	)	; utilities for emacs server (see below)
 
-(load "~/.emacs-config/stolen/stig-paren"	)	; highlight matching parentheses
-(load "~/.emacs-config/stolen/ke-spec"		)	; mode for spec files
-(load "~/.emacs-config/stolen/htmlize"		)	; convert current buffer to HTML with syntax highlighting
-
 
 (setq auto-mode-alist				; automatic edit modes depending on file extension
       (append
@@ -40,8 +36,9 @@
        auto-mode-alist))
 
 
-(setq compile-command				"make -k -j 8 && sudo make install")
-;(setq compile-command				"make -j 12")
+(setq compile-command				"make -k -j 20 && sudo make install")
+; (setq compile-command				"make -k -j  8 && sudo make install")	; for laptop
+; (setq compile-command				"make -j 20")
 (setq compilation-window-height			20)
 (set-default 'fill-column			79)	; automatic line wrapping
 (setq blink-matching-paren			t)
@@ -118,7 +115,9 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:family "DejaVu Sans Mono" :foundry "PfEd" :slant normal :weight regular :height 102 :width normal))))
+ ;;
+ ;; :height 102 for laptop
+ '(default ((t (:family "DejaVu Sans Mono" :foundry "PfEd" :slant normal :weight regular :height 105 :width normal))))
  '(cursor ((t (:background "red"))))
  '(fringe ((((class color) (background light)) (:stipple nil :background "burlywood"))))
  '(makefile-space-face ((((class color)) (:background "cyan"))))

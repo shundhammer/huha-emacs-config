@@ -61,7 +61,7 @@
 ;
 (setq default-frame-alist
               '((width		. 80		)
-        	(height		. 47		)
+		(height		. 60		)	; 47 for laptop
         	(background	. "burlywood"	)
         	(foreground	. "black"	)
         	(pointerColor	. "forest green")
@@ -69,7 +69,7 @@
         
 (setq initial-frame-alist
               '((width		. 80		)
-        	(height		. 47		)
+		(height		. 60		)	; 47 for laptop
         	(background	. "burlywood"	)
         	(foreground	. "black"	)
         	(pointerColor	. "forest green")
@@ -78,17 +78,10 @@
 ;
 ; -> Use X resources instead in ~/.Xdefaults :
 ;
-;	Emacs23*background:		burlywood
-;	Emacs23.cursorColor:		red
-;	Emacs23.pointerColor:		forest green
+;	emacs*background:		burlywood
+;	emacs.cursorColor:		red
+;	emacs.pointerColor:		forest green
 ;
-; The window class used to be "Emacs", but at some point the version number
-; got added to that (ARGGGH!!!), so it's now "Emacs23", and it will change all
-; the time. 
-;
-; May a thousand camels shit on the grave on whatever moron came up
-; with that crazy idea.
-
-
+; On Ubuntu, use 'Emacs23' instead of 'emacs'.
 
 ;;; <EOF>
